@@ -16,4 +16,8 @@ get historial(){
   ngOnInit(): void {
   }
 
+  buscarSeleccion(seleccion : string): void{
+    this.gifsService.buscarGifs(seleccion);
+  }
+
 }
